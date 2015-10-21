@@ -30,7 +30,11 @@
         [me exportSprites:files];
     }];
     
-    self.exportPathLabel.stringValue = [[NSUserDefaults standardUserDefaults] valueForKey:@"ExportPath"];
+    NSString *path = [[NSUserDefaults standardUserDefaults] valueForKey:@"ExportPath"];
+    if (path) {
+        self.exportPathLabel.stringValue = path;
+    }
+    
 }
 
 - (void)exportSprites:(NSArray *)files
