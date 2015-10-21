@@ -79,10 +79,10 @@
 		03F7FED51B8D5DAD002F8547 /* SpriteSheetUnpacker */ = {
 			isa = PBXGroup;
 			children = (
-				03F7FEF61B8D5DF8002F8547 /* DragDetectionView.h */,
-				03F7FEF71B8D5DF8002F8547 /* DragDetectionView.m */,
 				03F7FED81B8D5DAD002F8547 /* AppDelegate.h */,
 				03F7FED91B8D5DAD002F8547 /* AppDelegate.m */,
+				03F7FEF61B8D5DF8002F8547 /* DragDetectionView.h */,
+				03F7FEF71B8D5DF8002F8547 /* DragDetectionView.m */,
 				03F7FEDD1B8D5DAD002F8547 /* Images.xcassets */,
 				03F7FEDF1B8D5DAD002F8547 /* MainMenu.xib */,
 				03F7FED61B8D5DAD002F8547 /* Supporting Files */,
