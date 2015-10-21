@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="7706" systemVersion="15A284" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="7706"/>
     </dependencies>
@@ -21,11 +21,11 @@
         <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
         <menu title="Main Menu" systemMenu="main" id="AYu-sK-qS6">
             <items>
-                <menuItem title="SpriteSheetUnpack" id="1Xt-HY-uBw">
+                <menuItem title="SpriteSheetUnpacker" id="1Xt-HY-uBw">
                     <modifierMask key="keyEquivalentModifierMask"/>
-                    <menu key="submenu" title="SpriteSheetUnpack" systemMenu="apple" id="uQy-DD-JDr">
+                    <menu key="submenu" title="SpriteSheetUnpacker" systemMenu="apple" id="uQy-DD-JDr">
                         <items>
-                            <menuItem title="About SpriteSheetUnpack" id="5kV-Vb-QxS">
+                            <menuItem title="About SpriteSheetUnpacker" id="5kV-Vb-QxS">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <connections>
                                     <action selector="orderFrontStandardAboutPanel:" target="-1" id="Exp-CZ-Vem"/>
@@ -39,7 +39,7 @@
                                 <menu key="submenu" title="Services" systemMenu="services" id="hz9-B4-Xy5"/>
                             </menuItem>
                             <menuItem isSeparatorItem="YES" id="4je-JR-u6R"/>
-                            <menuItem title="Hide SpriteSheetUnpack" keyEquivalent="h" id="Olw-nP-bQN">
+                            <menuItem title="Hide SpriteSheetUnpacker" keyEquivalent="h" id="Olw-nP-bQN">
                                 <connections>
                                     <action selector="hide:" target="-1" id="PnN-Uc-m68"/>
                                 </connections>
@@ -57,7 +57,7 @@
                                 </connections>
                             </menuItem>
                             <menuItem isSeparatorItem="YES" id="kCx-OE-vgT"/>
-                            <menuItem title="Quit SpriteSheetUnpack" keyEquivalent="q" id="4sb-4s-VLi">
+                            <menuItem title="Quit SpriteSheetUnpacker" keyEquivalent="q" id="4sb-4s-VLi">
                                 <connections>
                                     <action selector="terminate:" target="-1" id="Te7-pn-YzF"/>
                                 </connections>
@@ -658,7 +658,7 @@
                     <modifierMask key="keyEquivalentModifierMask"/>
                     <menu key="submenu" title="Help" systemMenu="help" id="F2S-fz-NVQ">
                         <items>
-                            <menuItem title="SpriteSheetUnpack Help" keyEquivalent="?" id="FKE-Sm-Kum">
+                            <menuItem title="SpriteSheetUnpacker Help" keyEquivalent="?" id="FKE-Sm-Kum">
                                 <connections>
                                     <action selector="showHelp:" target="-1" id="y7X-2Q-9no"/>
                                 </connections>
@@ -668,7 +668,7 @@
                 </menuItem>
             </items>
         </menu>
-        <window title="SpriteSheetUnpack" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" animationBehavior="default" id="QvC-M9-y7g">
+        <window title="SpriteSheetUnpacker" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" animationBehavior="default" id="QvC-M9-y7g">
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="335" y="390" width="480" height="85"/>
@@ -681,7 +681,8 @@
                         <rect key="frame" x="5" y="30" width="470" height="50"/>
                         <subviews>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="hOn-yx-F55">
-                                <rect key="frame" x="187" y="16" width="97" height="18"/>
+                                <rect key="frame" x="188" y="16" width="95" height="19"/>
+                                <animations/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Drag to here" id="pgM-kA-ccf">
                                     <font key="font" metaFont="systemBold" size="15"/>
                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
@@ -694,9 +695,11 @@
                             <constraint firstAttribute="height" constant="50" id="pLZ-Jk-yFq"/>
                             <constraint firstAttribute="centerY" secondItem="hOn-yx-F55" secondAttribute="centerY" id="ybE-N0-Bpq"/>
                         </constraints>
+                        <animations/>
                     </customView>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="fcH-BQ-ube">
                         <rect key="frame" x="80" y="5" width="395" height="20"/>
+                        <animations/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" borderStyle="bezel" id="bis-st-AvV">
                             <font key="font" metaFont="cellTitle"/>
                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -709,9 +712,10 @@
                             <constraint firstAttribute="height" constant="20" id="qbH-Yg-BcH"/>
                             <constraint firstAttribute="width" constant="70" id="ruq-J0-XlG"/>
                         </constraints>
+                        <animations/>
                         <buttonCell key="cell" type="roundRect" title="Save to" bezelStyle="roundedRect" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="J3y-j2-BAY">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                            <font key="font" metaFont="controlContent"/>
+                            <font key="font" metaFont="cellTitle"/>
                         </buttonCell>
                         <connections>
                             <action selector="exportPath:" target="Voe-Tx-rLC" id="huf-Kq-Zci"/>
@@ -730,6 +734,7 @@
                     <constraint firstItem="Pua-b5-0Zl" firstAttribute="leading" secondItem="EiT-Mj-1SZ" secondAttribute="leading" constant="5" id="xPw-BK-EJ5"/>
                     <constraint firstAttribute="trailing" secondItem="fcH-BQ-ube" secondAttribute="trailing" constant="5" id="zUO-ww-K3z"/>
                 </constraints>
+                <animations/>
             </view>
             <point key="canvasLocation" x="137" y="265"/>
         </window>

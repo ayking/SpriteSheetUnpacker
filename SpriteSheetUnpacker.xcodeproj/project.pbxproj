@@ -16,24 +16,24 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		03F7FEE71B8D5DAD002F8547 /* PBXContainerItemProxy */ = {
+		035055241BD7B9B7003DCEA2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 03F7FECB1B8D5DAD002F8547 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 03F7FED21B8D5DAD002F8547;
-			remoteInfo = SpriteSheetUnpack;
+			remoteInfo = SpriteSheetUnpacker;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03F7FED31B8D5DAD002F8547 /* SpriteSheetUnpack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpriteSheetUnpack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03F7FED31B8D5DAD002F8547 /* SpriteSheetUnpacker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpriteSheetUnpacker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03F7FED71B8D5DAD002F8547 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03F7FED81B8D5DAD002F8547 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		03F7FED91B8D5DAD002F8547 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		03F7FEDB1B8D5DAD002F8547 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		03F7FEDD1B8D5DAD002F8547 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		03F7FEE01B8D5DAD002F8547 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		03F7FEE61B8D5DAD002F8547 /* SpriteSheetUnpackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpriteSheetUnpackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03F7FEE61B8D5DAD002F8547 /* SpriteSheetUnpackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpriteSheetUnpackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03F7FEEB1B8D5DAD002F8547 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03F7FEEC1B8D5DAD002F8547 /* SpriteSheetUnpackTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpriteSheetUnpackTests.m; sourceTree = "<group>"; };
 		03F7FEF61B8D5DF8002F8547 /* DragDetectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragDetectionView.h; sourceTree = "<group>"; };
@@ -61,8 +61,8 @@
 		03F7FECA1B8D5DAD002F8547 = {
 			isa = PBXGroup;
 			children = (
-				03F7FED51B8D5DAD002F8547 /* SpriteSheetUnpack */,
-				03F7FEE91B8D5DAD002F8547 /* SpriteSheetUnpackTests */,
+				03F7FED51B8D5DAD002F8547 /* SpriteSheetUnpacker */,
+				03F7FEE91B8D5DAD002F8547 /* SpriteSheetUnpackerTests */,
 				03F7FED41B8D5DAD002F8547 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,13 +70,13 @@
 		03F7FED41B8D5DAD002F8547 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				03F7FED31B8D5DAD002F8547 /* SpriteSheetUnpack.app */,
-				03F7FEE61B8D5DAD002F8547 /* SpriteSheetUnpackTests.xctest */,
+				03F7FED31B8D5DAD002F8547 /* SpriteSheetUnpacker.app */,
+				03F7FEE61B8D5DAD002F8547 /* SpriteSheetUnpackerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		03F7FED51B8D5DAD002F8547 /* SpriteSheetUnpack */ = {
+		03F7FED51B8D5DAD002F8547 /* SpriteSheetUnpacker */ = {
 			isa = PBXGroup;
 			children = (
 				03F7FEF61B8D5DF8002F8547 /* DragDetectionView.h */,
@@ -87,7 +87,7 @@
 				03F7FEDF1B8D5DAD002F8547 /* MainMenu.xib */,
 				03F7FED61B8D5DAD002F8547 /* Supporting Files */,
 			);
-			path = SpriteSheetUnpack;
+			path = SpriteSheetUnpacker;
 			sourceTree = "<group>";
 		};
 		03F7FED61B8D5DAD002F8547 /* Supporting Files */ = {
@@ -99,13 +99,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		03F7FEE91B8D5DAD002F8547 /* SpriteSheetUnpackTests */ = {
+		03F7FEE91B8D5DAD002F8547 /* SpriteSheetUnpackerTests */ = {
 			isa = PBXGroup;
 			children = (
 				03F7FEEC1B8D5DAD002F8547 /* SpriteSheetUnpackTests.m */,
 				03F7FEEA1B8D5DAD002F8547 /* Supporting Files */,
 			);
-			path = SpriteSheetUnpackTests;
+			path = SpriteSheetUnpackerTests;
 			sourceTree = "<group>";
 		};
 		03F7FEEA1B8D5DAD002F8547 /* Supporting Files */ = {
@@ -119,9 +119,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		03F7FED21B8D5DAD002F8547 /* SpriteSheetUnpack */ = {
+		03F7FED21B8D5DAD002F8547 /* SpriteSheetUnpacker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 03F7FEF01B8D5DAD002F8547 /* Build configuration list for PBXNativeTarget "SpriteSheetUnpack" */;
+			buildConfigurationList = 03F7FEF01B8D5DAD002F8547 /* Build configuration list for PBXNativeTarget "SpriteSheetUnpacker" */;
 			buildPhases = (
 				03F7FECF1B8D5DAD002F8547 /* Sources */,
 				03F7FED01B8D5DAD002F8547 /* Frameworks */,
@@ -131,14 +131,14 @@
 			);
 			dependencies = (
 			);
-			name = SpriteSheetUnpack;
+			name = SpriteSheetUnpacker;
 			productName = SpriteSheetUnpack;
-			productReference = 03F7FED31B8D5DAD002F8547 /* SpriteSheetUnpack.app */;
+			productReference = 03F7FED31B8D5DAD002F8547 /* SpriteSheetUnpacker.app */;
 			productType = "com.apple.product-type.application";
 		};
-		03F7FEE51B8D5DAD002F8547 /* SpriteSheetUnpackTests */ = {
+		03F7FEE51B8D5DAD002F8547 /* SpriteSheetUnpackerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 03F7FEF31B8D5DAD002F8547 /* Build configuration list for PBXNativeTarget "SpriteSheetUnpackTests" */;
+			buildConfigurationList = 03F7FEF31B8D5DAD002F8547 /* Build configuration list for PBXNativeTarget "SpriteSheetUnpackerTests" */;
 			buildPhases = (
 				03F7FEE21B8D5DAD002F8547 /* Sources */,
 				03F7FEE31B8D5DAD002F8547 /* Frameworks */,
@@ -147,11 +147,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				03F7FEE81B8D5DAD002F8547 /* PBXTargetDependency */,
+				035055251BD7B9B7003DCEA2 /* PBXTargetDependency */,
 			);
-			name = SpriteSheetUnpackTests;
+			name = SpriteSheetUnpackerTests;
 			productName = SpriteSheetUnpackTests;
-			productReference = 03F7FEE61B8D5DAD002F8547 /* SpriteSheetUnpackTests.xctest */;
+			productReference = 03F7FEE61B8D5DAD002F8547 /* SpriteSheetUnpackerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -172,7 +172,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 03F7FECE1B8D5DAD002F8547 /* Build configuration list for PBXProject "SpriteSheetUnpack" */;
+			buildConfigurationList = 03F7FECE1B8D5DAD002F8547 /* Build configuration list for PBXProject "SpriteSheetUnpacker" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -185,8 +185,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				03F7FED21B8D5DAD002F8547 /* SpriteSheetUnpack */,
-				03F7FEE51B8D5DAD002F8547 /* SpriteSheetUnpackTests */,
+				03F7FED21B8D5DAD002F8547 /* SpriteSheetUnpacker */,
+				03F7FEE51B8D5DAD002F8547 /* SpriteSheetUnpackerTests */,
 			);
 		};
 /* End PBXProject section */
@@ -232,10 +232,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		03F7FEE81B8D5DAD002F8547 /* PBXTargetDependency */ = {
+		035055251BD7B9B7003DCEA2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 03F7FED21B8D5DAD002F8547 /* SpriteSheetUnpack */;
-			targetProxy = 03F7FEE71B8D5DAD002F8547 /* PBXContainerItemProxy */;
+			target = 03F7FED21B8D5DAD002F8547 /* SpriteSheetUnpacker */;
+			targetProxy = 035055241BD7B9B7003DCEA2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -335,9 +335,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = SpriteSheetUnpack/Info.plist;
+				INFOPLIST_FILE = SpriteSheetUnpacker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SpriteSheetUnpacker;
 			};
 			name = Debug;
 		};
@@ -346,9 +346,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = SpriteSheetUnpack/Info.plist;
+				INFOPLIST_FILE = SpriteSheetUnpacker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SpriteSheetUnpacker;
 			};
 			name = Release;
 		};
@@ -365,10 +365,10 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = SpriteSheetUnpackTests/Info.plist;
+				INFOPLIST_FILE = SpriteSheetUnpackerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpriteSheetUnpack.app/Contents/MacOS/SpriteSheetUnpack";
+				PRODUCT_NAME = SpriteSheetUnpackerTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpriteSheetUnpacker.app/Contents/MacOS/SpriteSheetUnpacker";
 			};
 			name = Debug;
 		};
@@ -381,17 +381,17 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = SpriteSheetUnpackTests/Info.plist;
+				INFOPLIST_FILE = SpriteSheetUnpackerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpriteSheetUnpack.app/Contents/MacOS/SpriteSheetUnpack";
+				PRODUCT_NAME = SpriteSheetUnpackerTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpriteSheetUnpacker.app/Contents/MacOS/SpriteSheetUnpacker";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		03F7FECE1B8D5DAD002F8547 /* Build configuration list for PBXProject "SpriteSheetUnpack" */ = {
+		03F7FECE1B8D5DAD002F8547 /* Build configuration list for PBXProject "SpriteSheetUnpacker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				03F7FEEE1B8D5DAD002F8547 /* Debug */,
@@ -400,7 +400,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		03F7FEF01B8D5DAD002F8547 /* Build configuration list for PBXNativeTarget "SpriteSheetUnpack" */ = {
+		03F7FEF01B8D5DAD002F8547 /* Build configuration list for PBXNativeTarget "SpriteSheetUnpacker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				03F7FEF11B8D5DAD002F8547 /* Debug */,
@@ -409,7 +409,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		03F7FEF31B8D5DAD002F8547 /* Build configuration list for PBXNativeTarget "SpriteSheetUnpackTests" */ = {
+		03F7FEF31B8D5DAD002F8547 /* Build configuration list for PBXNativeTarget "SpriteSheetUnpackerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				03F7FEF41B8D5DAD002F8547 /* Debug */,
